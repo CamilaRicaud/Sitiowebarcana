@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 4rem;
+    color: rgb(227, 188, 138);
+}
+h2{
+    font-size: 3rem;
+    color: rgb(227, 188, 138);
+}
+p{
+    font-size: 2rem;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
