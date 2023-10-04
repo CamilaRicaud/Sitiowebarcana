@@ -1,0 +1,96 @@
+
+.contenedornosotros{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 15fr 8fr 2fr;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "info3 info3 info3 info3"
+    "footer footer footer footer";
+    .headernosotros{
+        grid-area: header;
+        background-color: #e1d3b6;
+        padding-left: 2rem;
+        .nav1{
+        display: flex;
+        flex-direction: row;
+        }
+        .navbar-brand{
+            font-size: 2.5rem;
+        }
+        .nav-item{
+            font-size: 2rem;
+        }
+    }
+    .mainnosotros{
+        grid-area: main;
+        margin: 5rem;
+        display: flex;
+        flex-direction: row;
+        padding: 3rem;
+        .videoarcana{
+            width: 50rem;
+        }
+        .textonosotros{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 5rem;
+            .texto1{
+                font-size: 5rem;
+            }
+            .texto2{
+                font-size: 3rem;
+                margin: 2rem;
+            }
+            .texto3{
+                font-size: 3.5rem;
+                margin: 2rem;
+            }
+        }
+    }
+    .info3{
+        grid-area: info3;
+        background-image: url(../imagenes/6.jpg);
+        opacity: 0.9;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem;
+        margin: 5rem;
+        .subtitulo4{
+            font-size: 5rem;
+            margin-bottom: 3rem;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .texto1{
+            font-size: 2rem;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+    }
+    .footernosotros{
+        grid-area: footer;
+        background-color: #e1d3b6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        p{
+            font-size: 1.5rem;
+        }
+        .redes{
+            .imagenesredes{
+                margin: 1rem;
+            }
+        }
+    }
+}

@@ -1,26 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-    <link rel="shortcut icon" href="imagenes/logo1.jpeg" type="image/x-icon">
+<html lang="es">
+    <link rel="shortcut icon" href="../imagenes/logo1.jpeg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/estilos.css">
     <meta name="description" content="Centro Integral de Estetica Femenina ubicado en Nva Cordoba. Tenemos el tratamiento ideal para vos. ">
     <meta name="keywords" content="estetica, centro de estetica, tratamientos esteticos, esteticas en cordoba, estetica nueva cordoba, nueva cordoba ">
-<body>
-    <header>
+    <body class="contenedorhome">
+        <header class="headerhome">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">ARCANA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
 
-    </header>
-    <main>
-
-    </main>
-    <footer>
-        
-    </footer>
-    <script src="./js/main.js"></script>
-</body>
+        </main>
+        <footer class="footerhome">
+            <p>Dirección: Belgrano 773, local 9. Paseo Colonial, Córdoba; Teléfono: 0351-153747570 | Copyright © 2023</p>
+            <div class="redes">
+                <a class="imagenesredes" href="https://www.instagram.com/arcana.cosmeticanatural/" target="_blank"><img src="../imagenes/instagram.png" alt=""></a>
+                <a class="imagenesredes" href="https://maps.app.goo.gl/nt2KwSkErgpEiKNQ9" target="_blank"><img src="../imagenes/marcador.png" alt=""></a>
+                <a class="imagenesredes"href="https://wa.me/c/5493513747570" target="_blank"><img src="../imagenes/whatsapp.png" alt=""></a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="../js/main.js"></script>
+    </body>
 </html>
