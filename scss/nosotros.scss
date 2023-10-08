@@ -2,7 +2,7 @@
 .contenedornosotros{
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-    grid-template-rows: 1fr 15fr 8fr 2fr;
+    grid-template-rows: 0.5fr 15fr 8fr 2fr;
     grid-template-areas: 
     "header header header header"
     "main main main main"
@@ -10,6 +10,9 @@
     "footer footer footer footer";
     .headernosotros{
         grid-area: header;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0px 0px 6px 0px rgba(16, 16, 16, 0.5);
         background-color: #e1d3b6;
         padding-left: 2rem;
         .nav1{
@@ -25,19 +28,17 @@
     }
     .mainnosotros{
         grid-area: main;
-        margin: 5rem;
         display: flex;
         flex-direction: row;
-        padding: 3rem;
         .videoarcana{
-            width: 50rem;
+            width: 60rem;
         }
         .textonosotros{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin: 5rem;
+            margin: 10rem;
             .texto1{
                 font-size: 5rem;
             }
